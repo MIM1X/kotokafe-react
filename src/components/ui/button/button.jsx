@@ -1,9 +1,9 @@
 import React from 'react';
 import './style.css';
 
-function Button() {
+function Button({ minWidth }) {
   return (
-    <a href='#' className='button'>
+    <a href='#' className='button' style={{ minWidth: minWidth }}>
       Купить билет
     </a>
   );
